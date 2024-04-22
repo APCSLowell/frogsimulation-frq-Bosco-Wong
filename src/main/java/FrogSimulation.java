@@ -26,7 +26,7 @@ public class FrogSimulation
 	public double runSimulations(int num)
 	{ 
 		int count= 0;
-		for(int x = 0; x < num: x++)
+		for(int x = 0; x < num; x++)
 			if(simulate() == true)
 				count++;
 		return count/num;
