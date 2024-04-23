@@ -16,6 +16,8 @@ public class FrogSimulation
 	public boolean simulate()
 	{ 
 		int count = 0;
+		if(goalDistance == 0 && maxHops == 0)
+			return true;
 		for(int x = 0 ; x < maxHops; x++){
 		count+= hopDistance();
 		}
