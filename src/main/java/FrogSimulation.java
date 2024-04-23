@@ -31,11 +31,11 @@ public class FrogSimulation
 	
 	public double runSimulations(int num)
 	{ 
-		int count= 0;
+		double count= 0.0;
 		for(int x = 0; x < num; x++)
 			if(simulate() == true)
 				count++;
-		return count/num;
+		return (double)count/(double)num;
 
 	}
 	
